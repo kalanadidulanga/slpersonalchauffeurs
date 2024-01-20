@@ -1,10 +1,18 @@
+import { Route, Routes, useLocation } from 'react-router-dom'
 import './App.css'
+import Home from './pages/Home'
 
 function App() {
 
+  const location = useLocation();
+
   return (
     <>
-      <h1>Hello World!</h1>
+
+      <Routes location={location} key={location.pathname}>
+        <Route path="/" element={<Home />} />
+      </Routes>
+
     </>
   )
 }
