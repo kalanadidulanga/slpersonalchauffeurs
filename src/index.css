@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -16,6 +17,38 @@ body {
   font-family: Poppins;
   background-color: #f9fcff;
   scroll-behavior: smooth;
+}
+
+.martian-mono {
+  font-family: Martian Mono;
+}
+
+.kalam {
+  font-family: Kalam;
+}
+
+.bg-header {
+  background-image: url(/background/header-bg.png);
+}
+
+.bg-footer {
+  background-image: url(/background/footer-bg.png);
+}
+
+.bg-pattern {
+  background-image: url(/background/pattern-1.png);
+}
+
+.bg-newsletter {
+  background-image: url(/background/newsletter-bg.png);
+}
+
+.bg-sl {
+  background-image: url(/background/slbg.jpg);
+}
+
+.bg-traveler {
+  background-image: url(/svg/undraw_travel_booking_re_6umu.svg);
 }
 
 @layer utilities {
