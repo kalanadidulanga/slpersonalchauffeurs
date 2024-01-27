@@ -118,7 +118,7 @@ const Home = () => {
                             <br />
                             with Our Guide
                         </h1>
-                        <p className="text-gray-600 regular-14 mt-10 md:regular-16 lg:regular-18 text-justify indent-10 tracking-wide spacin">
+                        <p className="text-gray-600 regular-14 mt-10 md:regular-16 lg:regular-18 text-justify indent-10 tracking-wide">
                             Regardless of your travel preferences, Sri Lanka has a wide range
                             of offerings that cater to everyone's interests. At{" "}
                             <span className=" font-bold">SL Personal Chauffeurs</span>, our
