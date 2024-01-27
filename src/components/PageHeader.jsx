@@ -3,12 +3,12 @@ import { FaHome } from 'react-icons/fa'
 import { IoIosArrowForward } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 
-const PageHeader = ({ name }) => {
+const PageHeader = ({ name ,img }) => {
     return (
         <>
-            <section className=' bg-banner1 bg-cover bg-bottom'>
+            <section className=' bg-banner1 bg-cover bg-center' style={{ backgroundImage: `url(${img})` }}>
                 <div className=' bg-black/30'>
-                    <div className=' max-container padding-contaoner py-24 overflow-hidden'>
+                    <div className=' max-container padding-contaoner py-20 overflow-hidden'>
                         <div className=' flex flex-col items-center justify-center gap-4'>
                             <h2 className=' text-white text-6xl font-bold tracking-wide'>{name}</h2>
                             <div className=' flex items-center gap-3'>

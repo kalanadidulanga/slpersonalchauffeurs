@@ -169,6 +169,12 @@ const Home = () => {
                 </div>
             </section>
 
+            <section className="py-16">
+                <div className=" max-container padding-container w-2/3 md:w-2/4 lg:w-2/5">
+                    <img src="/tripadvisor/logo3.svg" alt="tripadvisor" className=" object-cover object-center"/>
+                </div>
+            </section>
+
             <section className=" bg-sl bg-cover bg-center w-full h-auto overflow-hidden">
                 <div className=" w-full h-auto bg-black/60">
                     <div className=" max-container padding-container py-32">
