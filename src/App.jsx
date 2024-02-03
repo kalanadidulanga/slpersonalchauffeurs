@@ -7,6 +7,9 @@ import ContactUs from './pages/ContactUs';
 import Gallery from './pages/Gallery';
 import NotFound from './pages/NotFound';
 
+import { Toaster } from "@/components/ui/toaster"
+
+
 function App() {
 
   const location = useLocation();
@@ -16,12 +19,13 @@ function App() {
 
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/tours" element={<Tours/>} />
-        <Route path="/contact_us" element={<ContactUs/>} />
-        <Route path="/gallery" element={<Gallery/>} />
-        <Route path="*" element={<NotFound/>} />
+        <Route path="/tours" element={<Tours />} />
+        <Route path="/contact_us" element={<ContactUs />} />
+        <Route path="/gallery" element={<Gallery />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
+      <Toaster />
     </>
   )
 }
