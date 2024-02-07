@@ -13,8 +13,8 @@ const Home = () => {
             <Navbar />
 
             <section className=" w-full h-auto overflow-hidden">
-                <div className="bghome1 bg-cover bg-center h-auto w-full">
-                    <div className="bg-black/40">
+                <div className="bg-kandy1 bg-cover bg-center h-auto w-full">
+                    <div className="bg-black/45">
                         <div className=" py-32 max-container padding-container ">
                             <div className="flex flex-col items-center gap-5">
                                 <h2 className=" text-white bold-40 md:bold-52 lg:bold-64 text-center">
@@ -170,9 +170,18 @@ const Home = () => {
             </section>
 
             <section className="py-16">
-                <div className=" max-container padding-container w-2/3 md:w-2/4 lg:w-2/5">
-                    <img src="/tripadvisor/logo3.svg" alt="tripadvisor" className=" object-cover object-center"/>
+                <div className=" flex flex-col items-center">
+                    <h3 className=" bold-40 text-center mb-5 text-color3">Vist us on</h3>
+                    <div className=" max-container padding-container w-2/3 md:w-2/4 lg:w-2/5">
+                        <img src="/tripadvisor/logo3.svg" alt="tripadvisor" className=" object-cover object-center" />
+                    </div>
+                    <a href="https://www.tripadvisor.com/Attraction_Review-g304132-d27165208-Reviews-SL_Personal_Chauffeurs-Anuradhapura_North_Central_Province.html" target="_blank"
+                        className="text-center regular-20 text-color2 mt-2 hover:underline decoration-color1"
+                    >
+                    SL Personal Chauffeurs
+                    </a>
                 </div>
+
             </section>
 
             <section className=" bg-sl bg-cover bg-center w-full h-auto overflow-hidden">

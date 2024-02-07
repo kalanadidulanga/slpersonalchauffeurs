@@ -50,7 +50,7 @@ const Footer = () => {
               <FooterColumn title={SOCIALS.title}>
                 <ul className=' regular-14 flex gap-4 text-gray-30'>
                   {SOCIALS.links.map((link) => (
-                    <a href={link.href} key={link.src} className=" hover:scale-125 duration-300">
+                    <a href={link.href} key={link.src} target="_blank" className=" hover:scale-125 duration-300">
                       <img src={link.src} alt='logo' width={24} height={24} />
                     </a>
                   ))}
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className=' border bg-gray-20 mb-2' />
-        <p className=' regular-14 w-full text-center text-gray-30'>© Copyright 2024 Developed By <span className=' font-bold'>Kalana Didulanga</span> | All Right Reserved.</p>
+        <p className=' regular-14 w-full text-center text-gray-30'>© Copyright 2024 Developed By <span className=' font-bold'>Kalana Didulanga</span> (kalanadidulanga2005@gmail.com) | All Right Reserved.</p>
       </div>
     </footer>
   )

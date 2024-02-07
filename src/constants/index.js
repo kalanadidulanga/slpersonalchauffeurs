@@ -38,9 +38,9 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
     title: 'Social',
     links: [
-        { href: '/', src: '/facebook.svg', },
-        { href: '/', src: '/instagram.svg', },
-        { href: '/', src: '/twitter.svg', },
-        { href: '/', src: '/youtube.svg', },
+        { href: 'https://www.facebook.com/profile.php?id=61555092622122&mibextid=LQQJ4d', src: '/facebook.svg', },
+        // { href: '', src: '/instagram.svg', },
+        { href: 'https://www.tripadvisor.com/Attraction_Review-g304132-d27165208-Reviews-SL_Personal_Chauffeurs-Anuradhapura_North_Central_Province.html', src: '/tripadvisor.svg', },
+        { href: 'https://youtube.com/@gimhananethsara', src: '/youtube.svg', },
     ],
 };

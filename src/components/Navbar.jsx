@@ -18,8 +18,8 @@ const Navbar = () => {
         <>
             <div className=" bg-color4">
                 <div className="  flex flex-col items-center gap-1 py-4 md:flex-row md:justify-between max-container padding-container">
-                    <a href="#" className=" regular-14 text-white flex items-center gap-2"><HiOutlineMail size={18} />gimhananethsara55@gmail.com</a>
-                    <a href="+94742764919" className=" regular-14 text-white flex items-center gap-2"><FaWhatsapp size={18} />+94741613000</a>
+                    <a href="" className=" regular-14 text-white flex items-center gap-2"><HiOutlineMail size={18} />gimhananethsara55@gmail.com</a>
+                    <a href="" className=" regular-14 text-white flex items-center gap-2"><FaWhatsapp size={18} />+94741613000</a>
                 </div>
             </div>
 

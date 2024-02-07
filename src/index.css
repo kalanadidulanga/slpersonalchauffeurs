@@ -47,6 +47,14 @@ body {
   background-image: url(/background/slbg.jpg);
 }
 
+.bg-kandy1 {
+  background-image: url(/background/kandy1.jpg);
+}
+
+.bg-sl2 {
+  background-image: url(/sl/allinone.jpg);
+}
+
 .bg-traveler {
   background-image: url(/svg/undraw_travel_booking_re_6umu.svg);
 }
