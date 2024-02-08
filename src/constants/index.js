@@ -44,3 +44,20 @@ export const SOCIALS = {
         { href: 'https://youtube.com/@gimhananethsara', src: '/youtube.svg', },
     ],
 };
+
+export const TOURS = [
+    { src: '/tours/colombo.jpg', h4: 'Colombo', p: 'Colombo' },
+    { src: '/tours/anuradhapura.jpeg', h4: 'Anuradhapura', p: '' },
+    { src: '/tours/dabulla.jpeg', h4: 'Dabulla', p: '' },
+    { src: '/tours/ella.jpg', h4: 'Ella', p: '' },
+    { src: '/tours/hikkaduwa.jpg', h4: 'Hikkaduwa', p: '' },
+    { src: '/tours/kandy.jpeg', h4: 'Kandy', p: '' },
+    { src: '/tours/mirissa.jpeg', h4: 'Mirissa', p: '' },
+    { src: '/tours/negombo.jpg', h4: 'Negombo', p: '' },
+    { src: '/tours/nuwaraeliya.jpeg', h4: 'Nuwara Eliya', p: '' },
+    { src: '/tours/polonnaruwa.jpeg', h4: 'Polonnaruwa', p: '' },
+    { src: '/tours/sigiriya.jpeg', h4: 'Sigiriya', p: '' },
+    { src: '/tours/udawalawa.jpg', h4: 'Udawalawa', p: '' },
+    { src: '/tours/unawatuna.jpeg', h4: 'Unawatuna', p: '' },
+    { src: '/tours/yala.jpeg', h4: 'Yala', p: '' },
+]

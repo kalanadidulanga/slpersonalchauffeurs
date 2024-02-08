@@ -2,6 +2,7 @@ import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import PageHeader from '@/components/PageHeader'
 import { Button } from '@/components/ui/button'
+import { TOURS } from '@/constants'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -44,6 +45,28 @@ const Tours = () => {
                 Contact Us
               </Link>
             </Button>
+          </div>
+        </div>
+      </div>
+
+      <div className=' w-full h-auto overflow-hidden'>
+        <div className=' max-container padding-container py-24'>
+          <h1 className=" text-color2 bold-32 md:bold-40 lg:bold-52 text-left">
+            Sri Lanka <span className=" text-color5">Tour Covers</span>
+          </h1>
+
+          <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-0 lg:gap-0 py-8'>
+
+            {TOURS.map((tour, index) => (
+              <div key={index} className=' w-full  h-40 md:h-52 lg:h-64 flex justify-center items-center overflow-hidden relative'>
+                <img src={tour.src} alt="colombo" className='flex w-full h-full object-cover object-bottom' />
+                <div className=' flex flex-col justify-end absolute w-full h-full p-5 bg-opacity-75 bg-gradient-to-t from-black/50 hover:from-black/70 transition-all duration-300 to-transparent'>
+                  <h4 className='text-white bold-18 tracking-widest'>{tour.h4}</h4>
+                  {/* <p className='text-white regular-16'>{tour.p}</p> */}
+                </div>
+              </div>
+            ))}
+
           </div>
         </div>
       </div>
