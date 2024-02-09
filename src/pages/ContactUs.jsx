@@ -19,7 +19,7 @@ const ContactUs = () => {
   const clickHandle = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost/react-server-01/server.php", {
+    fetch("http://localhost/server/slpersonalchauffeurs/server.php", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -159,6 +159,16 @@ const ContactUs = () => {
           </div>
         </div>
       </section>
+
+      {/* <section className=' w-full h-full'>
+        <div className=' max-container padding-container py-10'>
+          <div className=' w-full h-full'>
+            <div>
+
+            </div>
+          </div>
+        </div>
+      </section> */}
 
       <Footer />
     </>

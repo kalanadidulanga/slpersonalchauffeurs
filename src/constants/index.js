@@ -30,8 +30,8 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-        { value1: 'gimhananethsara55@gmail.com', },
-        { value1: '+94741613000', },
+        { value1: 'info@slpersonalchauffeurs.com', href:'mailto:info@slpersonalchauffeurs.com'},
+        { value1: '+94741613000', href:''},
     ],
 };
 

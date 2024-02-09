@@ -10,7 +10,7 @@ const PageHeader = ({ name ,img }) => {
                 <div className=' bg-black/30'>
                     <div className=' max-container padding-contaoner py-20 overflow-hidden'>
                         <div className=' flex flex-col items-center justify-center gap-4'>
-                            <h2 className=' text-white text-6xl font-bold tracking-wide'>{name}</h2>
+                            <h2 className=' text-white text-6xl font-bold tracking-wide text-center'>{name}</h2>
                             <div className=' flex items-center gap-3'>
                                 <div className=' bg-green-500 rounded-full p-3 flex justify-center items-center'><FaHome color='white' size={20} /></div>
                                 <Link to={'/'} className=' text-white regular-18 cursor-pointer hover:underline'>Home</Link>

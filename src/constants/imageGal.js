@@ -1,17 +1,5 @@
 export const IMAGE_GAL = [
-    {src:'/photoGal1.jpg', alt:'image1'},
-    {src:'/photogal2.jpg', alt:'image2'},
-    {src:'/photogal3.jpg', alt:'image3'},
-    {src:'/photogal4.jpg', alt:'image4'},
-    {src:'/photogal7.jpg', alt:'image7'},
-    {src:'/homepage3.jpg', alt:'image11'},
-    {src:'/homepage5.jpg', alt:'image12'},
-    {src:'/homepage8.jpg', alt:'image13'},
-    {src:'/Herpetafauna1.jpg', alt:'image14'},
-    {src:'/makandawa rain forest.jpg', alt:'image15'},
-    {src:'/floratour1.jpg', alt:'image16'},
-    {src:'/birding tour2.jpg', alt:'image17'},
-    {src:'/165564216.jpg', alt:'image18'},
+    
 ]
 
 export const IMAGE_GAL_PAGE = [
@@ -26,4 +14,10 @@ export const IMAGE_GAL_PAGE = [
     {src:'/gal/photogal9.jpg', alt:'image9'},
     {src:'/gal/photogal10.jpg', alt:'image10'},
     {src:'/gal/photogal12.jpg', alt:'image12'},
+    {src:'/gal/photogal13.jpg', alt:'image13'},
+    {src:'/gal/photogal14.jpg', alt:'image14'},
+    {src:'/gal/photogal15.jpg', alt:'image15'},
+    {src:'/gal/photogal16.jpg', alt:'image16'},
+    {src:'/gal/photogal17.jpg', alt:'image17'},
+    {src:'/gal/photogal18.jpg', alt:'image18'},
 ]

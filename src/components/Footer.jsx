@@ -33,15 +33,16 @@ const Footer = () => {
             <div className=' flex flex-col gap-5 w-full sm:w-auto'>
               <FooterColumn title={FOOTER_CONTACT_INFO.title}>
                 {FOOTER_CONTACT_INFO.links.map((link) => (
-                  <Link
+                  <a
                     // to={``}
                     key={link.value1}
                     className=' flex gap-4 items-center md:flex-col lg:flex-row'
+                    href={link.href}
                   >
                     <p className='regular-14 whitespace-nowrap'>
                       {link.value1}
                     </p>
-                  </Link>
+                  </a>
                 ))}
               </FooterColumn>
             </div>
